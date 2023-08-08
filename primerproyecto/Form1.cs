@@ -16,5 +16,27 @@ namespace primerproyecto
         {
             InitializeComponent();
         }
+
+        private void btncomprobar_Click(object sender, EventArgs e)
+        {
+            int edad = int.Parse(txtedad.Text);
+
+            //estreuctura de control
+
+            //IF CONDICIONAL. si se cumple se ejecuta el bloque de codigo.
+            if (edad >= 18)
+            {
+                MessageBox.Show("Bienvenido, eres responsable de tus acciones");
+
+
+            if (edad <= 17)
+                    MessageBox.Show("invalido");
+            }
+        }
+            
+        private void txtedad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
