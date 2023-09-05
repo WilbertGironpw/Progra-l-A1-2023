@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace primerproyecto
+namespace Conversores
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace primerproyecto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Conversor());
         }
     }
 }
